@@ -67,8 +67,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mjau" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpZ-Ig-LXz">
-                                <rect key="frame" x="276" y="43" width="37" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lycka till" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0c-1v-mKv">
+                                <rect key="frame" x="246" y="34" width="66" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -76,10 +76,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gpZ-Ig-LXz" firstAttribute="top" secondItem="Vrk-or-6j7" secondAttribute="bottom" constant="23" id="Wg3-La-6Gf"/>
-                            <constraint firstItem="gpZ-Ig-LXz" firstAttribute="leading" secondItem="2Z0-xl-Arb" secondAttribute="leadingMargin" constant="256" id="hls-cj-3K8"/>
+                            <constraint firstItem="y0c-1v-mKv" firstAttribute="leading" secondItem="2Z0-xl-Arb" secondAttribute="leadingMargin" constant="226" id="Qun-fn-fG5"/>
+                            <constraint firstItem="y0c-1v-mKv" firstAttribute="top" secondItem="Vrk-or-6j7" secondAttribute="bottom" constant="14" id="VKf-sT-a5s"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titlesmutt" destination="y0c-1v-mKv" id="eOa-6X-fPi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tKJ-3d-8k8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
